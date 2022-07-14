@@ -1,13 +1,5 @@
-# <h1 align="center">StaFiHub Public Testnet 3</h1>
-
 <h1 align="center">Selamlar herkese, bugün uzun süredir içinde olduğumuz StaFiHub'un public validator testine katılacağız, daha önce katılmadıysanızda dahil olabilirsiniz. </h1>
-
-![image](https://user-images.githubusercontent.com/101149671/177503012-d32a16d9-943b-4090-a005-dccaa691cb46.png)
-
 ## Öncelikle telegram kanalını bırakayım: https://t.me/StaFiHubTurkish
-
-Not: Bu kaynağı sağ üstten forklamayı ve yıldızlamayı unutmayın, profiliniz katıldığınız testnetlerle dolu olsun.
-
 # Sistem gereksinimler: NOT: bence ücretsiz sunucuya kurun aşağıda purring ve index ayarlarını yaparak
 ```
 8GB RAM
@@ -149,16 +141,10 @@ stafihubd keys add walletName --recover
 ```
 stafihubd status 2>&1 | jq .SyncInfo
 ```
-
 # Şu an true yazıyor: 
-
 ![image](https://user-images.githubusercontent.com/101149671/177506402-4938b31e-1a3c-417d-bb35-c8b1066f03ff.png)
-
 # Eşleşince: böyle bir çıktı alırsınız.
-
 ![image](https://user-images.githubusercontent.com/101149671/177517503-12f2dfea-9126-4ae9-b74d-92c456bff7ce.png)
-
-
 # Validator oluşturma: 
 ```
 stafihubd tx staking create-validator \
@@ -175,30 +161,10 @@ stafihubd tx staking create-validator \
 --from=WalletName \
 --yes
 ```
-
 # Oluştuktan sonra böyle bir çıktı gelir, tx hash'ı kopyalayıp explorerda aratın, succes demesi lazım.
-
 ![image](https://user-images.githubusercontent.com/101149671/177530977-9e98bcbd-5928-41d8-9a9a-afde3b0a1a85.png)
-
 ![image](https://user-images.githubusercontent.com/101149671/177531070-e170759e-4996-44eb-bd46-1b6e4ff4c868.png)
 
-
-# Yararlı komutlar için konu başlığı: https://forum.rues.info/index.php?threads/stafihub-testnet-3-katilim-rehberi.2074/
-
-# Explorer linki: https://testnet-explorer.stafihub.io/stafi-hub-testnet
-# Telegram kanalı: https://t.me/StaFiHubTurkish
-
-# Hesaplar:
-
-[<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="16px"> Twitter   ](https://twitter.com/Ruesandora0) 
-
-[<img src="https://cdn-icons-png.flaticon.com/512/1336/1336494.png" width="16px"> Forum   ](https://forum.rues.info/index.php)
-
-[<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="16px"> Telegram Announcement   ](https://t.me/RuesAnnouncement)
-
-[<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="16px"> Telegram Chat   ](https://t.me/RuesChat)
-
-[Discord](https://discord.gg/ruescommunity)
 
 
 
